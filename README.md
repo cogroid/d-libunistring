@@ -64,5 +64,23 @@ make install
 Built files are at /home/cogroid/local/libunistring/x64
 ```
 
+### Build for i386 machine
+
+```
+sudo apt update
+cd ${UNISTRING_DIR}/make/i386
+make > build.log&
+```
+
+```
+sudo apt update
+cd ${UNISTRING_DIR}/make/i386
+make install
+```
+
+```
+Built files are at /home/cogroid/local/libunistring/i386
+```
+
 ---
 [Head icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/head)
