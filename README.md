@@ -84,16 +84,16 @@ Built files are at /home/cogroid/local/libunistring/i386
 
 ### Build for armv7-a machine
 
+Set APP_PKG to package name of your android app.
+
 ```
-sudo apt update
-cd ${UNISTRING_DIR}/make/armv7
-make > configure.log&
+export APP_PKG=com.cogroid.atomspace.tester
 ```
 
 ```
 sudo apt update
 cd ${UNISTRING_DIR}/make/armv7
-make update_makefile
+make > configure.log&
 ```
 
 ```
